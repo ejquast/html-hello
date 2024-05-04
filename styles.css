@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gainsboro;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#title {
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+#firstfeed,
+#secondfeed,
+#thirdfeed,
+#fourthfeed {
+    background-color: white;
+    width: 450px;
+    display: inline-flex;
+}
+
+#firstfeed,
+#firstdate {
+    margin-top: 120px;
+    bottom: 0px;
+}
+
+#secondfeed,
+#thirdfeed,
+#fourthfeed,
+#seconddate,
+#thirddate,
+#fourthdate {
+    margin-top: 50px;
+    bottom: 0px;
+}
+
+#firstdate,
+#seconddate,
+#thirddate,
+#fourthdate {
+    background-color: white;
+    width: 50px;
+    left: 0px;
+    right: 0px;
+    display: inline-flex;
+
+#firstimg,
+#secondimg,
+#thirdimg,
+#fourthimg {
+    width: 500px;
+    background-color: white;
+}
+
+#firsttext,
+#secondtext,
+#thirdtext,
+#fourthtext {
+    width: 500px;
+    margin-bottom: 20px;
+    background-color: white;
+}
